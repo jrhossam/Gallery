@@ -36,7 +36,7 @@ class DetialPage extends StatelessWidget {
               onPressed: () {
                 Navigator.pop(context);
               },
-              icon: Icon(
+              icon: const Icon(
                 Icons.arrow_back,
                 color: Colors.white,
                 size: 38.0,
@@ -48,13 +48,13 @@ class DetialPage extends StatelessWidget {
             left: 0,
             right: 0,
             child: Padding(
-              padding: EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(12.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                     title,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 34.0,
                       color: Colors.white,
                       fontWeight: FontWeight.w800,
@@ -62,7 +62,7 @@ class DetialPage extends StatelessWidget {
                   ),
                   Text(
                     location,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 24.0,
                       color: Colors.white,
                       fontWeight: FontWeight.w400,
